@@ -36,3 +36,270 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* GameMenu.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-menu {
+  text-align: center;
+  background-color: #fff; /* Set your desired background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.start-button,
+.options-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db; /* Set your desired button color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  border-radius: 4px;
+}
+
+.start-button:hover,
+.options-button:hover {
+  background-color: #2980b9; /* Set your desired button color on hover */
+}
+
+.game-page {
+  text-align: center;
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-box {
+  margin-bottom: 20px;
+}
+
+.answer-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.answer-option {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db; /* Set your desired button color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  border-radius: 4px;
+}
+
+.answer-option:hover {
+  background-color: #2980b9; /* Set your desired button color on hover */
+}
+
+/* GamePage.css */
+
+.game-page {
+  margin-top: 30%;
+  text-align: center;
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-box {
+  margin-bottom: 20px;
+  border: 2px solid #3498db; /* Set your desired border color */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.answer-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.answer-option {
+  width: calc(50% - 20px); /* 50% width minus margin */
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db; /* Set your desired button color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  border-radius: 4px;
+}
+
+.answer-option:hover {
+  background-color: #2980b9; /* Set your desired button color on hover */
+}
+
+/* New styling for answer boxes */
+.answer-box {
+  border: 2px solid #3498db; /* Set your desired border color */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Style for letter labels */
+.answer-label {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* GamePage.css */
+
+.game-page {
+  text-align: center;
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-numbers {
+  display: flex;
+  justify-content: space-around; /* Align numbers horizontally */
+  margin-bottom: 20px;
+}
+
+.question-number {
+  width: 40px;
+  height: 40px;
+  background-color: #3498db; /* Set your desired sphere color */
+  color: #fff; /* Set your desired text color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.question-number.current {
+  background-color: #e74c3c; /* Set your desired current sphere color */
+}
+
+.question-box {
+  margin-bottom: 20px;
+}
+
+.answer-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.answer-option {
+  width: calc(50% - 20px); /* 50% width minus margin */
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db; /* Set your desired button color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  border-radius: 4px;
+}
+
+.answer-option:hover {
+  background-color: #2980b9; /* Set your desired button color on hover */
+}
+
+/* Style for letter labels */
+.answer-label {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Additional styling for bottom answer box */
+.bottom-answer-box {
+  margin-top: 20px;
+}
+
+.game-control-page {
+  text-align: center;
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db; /* Set your desired button color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #2980b9; /* Set your desired button color on hover */
+}
+
+.selected {
+  background-color: orange;
+}
+
+.selectedcorrect{
+  background-color: green;
+}
+
+.container {
+  position: relative;
+}
+
+.image-container {
+  position: absolute;
+  bottom: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.circular-border {
+  width: 100px; /* Adjust the width and height as needed */
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%; /* Creates a circular border */
+  border: 2px solid #000; /* Border color and thickness */
+}
+
+img {
+  width: 100%; /* Ensures the image fills the circular container */
+  height: auto; /* Maintains the image's aspect ratio */
+  display: block; /* Removes extra space below the image */
+}
+
+.roulette-container {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  z-index: 3;
+}
