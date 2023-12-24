@@ -5,6 +5,7 @@ var question = 1;
 var level = 1;
 var option = 0;
 var [text, optionA, optionB, optionC, optionD, answer, creator, difficulty] = "";
+let contador = 0;
 
 export const useGameContext = () => {
   return useContext(GameContext);
@@ -104,7 +105,7 @@ export const GameProvider = ({ children }) => {
         .filter(index => !usedQuestionIndices.includes(index));
       
       const availableQuestions = availableIndices.filter(
-        index => parseInt(lines[index].split(',')[7].trim()) === level
+        index => parseInt(lines[index].split(';')[7].trim()) === level
       );
 
       // Check if there are available questions
@@ -118,13 +119,13 @@ export const GameProvider = ({ children }) => {
 
       var randomLine = lines[randomIndex];
       // Parse the line and set the question data
-      [text, optionA, optionB, optionC, optionD, answer, creator, difficulty] = randomLine.split(',');
+      [text, optionA, optionB, optionC, optionD, answer, creator, difficulty] = randomLine.split(';');
       while (level != difficulty) {
         randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
 
         randomLine = lines[randomIndex];
         // Parse the line and set the question data
-        [text, optionA, optionB, optionC, optionD, answer, creator, difficulty] = randomLine.split(',');
+        [text, optionA, optionB, optionC, optionD, answer, creator, difficulty] = randomLine.split(';');
       }
 
       // Mark the question as used
@@ -142,6 +143,9 @@ export const GameProvider = ({ children }) => {
     } catch (error) {
       console.error('Error fetching or processing CSV file:', error);
     }
+
+    contador++;
+    console.log(contador);
   }
 
   const showQuestion = async () => {
