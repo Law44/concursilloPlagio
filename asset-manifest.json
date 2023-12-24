@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.85b027dd.css",
-    "main.js": "/static/js/main.051644e4.js",
-    "static/js/787.96ecf59c.chunk.js": "/static/js/787.96ecf59c.chunk.js",
-    "static/media/ruleta.png": "/static/media/ruleta.079f6bde7f0b9b817231.png",
-    "static/media/50.png": "/static/media/50.836e2fc8f7df059db1c4.png",
-    "static/media/ai.png": "/static/media/ai.11f0d25fd86bd7841706.png",
-    "index.html": "/index.html",
-    "main.85b027dd.css.map": "/static/css/main.85b027dd.css.map",
-    "main.051644e4.js.map": "/static/js/main.051644e4.js.map",
-    "787.96ecf59c.chunk.js.map": "/static/js/787.96ecf59c.chunk.js.map"
+    "main.css": "/concursilloPlagio/static/css/main.85b027dd.css",
+    "main.js": "/concursilloPlagio/static/js/main.346aae15.js",
+    "static/js/787.96ecf59c.chunk.js": "/concursilloPlagio/static/js/787.96ecf59c.chunk.js",
+    "static/media/ruleta.png": "/concursilloPlagio/static/media/ruleta.079f6bde7f0b9b817231.png",
+    "static/media/50.png": "/concursilloPlagio/static/media/50.836e2fc8f7df059db1c4.png",
+    "static/media/ai.png": "/concursilloPlagio/static/media/ai.11f0d25fd86bd7841706.png",
+    "index.html": "/concursilloPlagio/index.html",
+    "main.85b027dd.css.map": "/concursilloPlagio/static/css/main.85b027dd.css.map",
+    "main.346aae15.js.map": "/concursilloPlagio/static/js/main.346aae15.js.map",
+    "787.96ecf59c.chunk.js.map": "/concursilloPlagio/static/js/787.96ecf59c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85b027dd.css",
-    "static/js/main.051644e4.js"
+    "static/js/main.346aae15.js"
   ]
 }
