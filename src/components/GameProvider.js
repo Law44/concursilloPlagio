@@ -144,8 +144,8 @@ export const GameProvider = ({ children }) => {
       console.error('Error fetching or processing CSV file:', error);
     }
 
-    contador++;
-    console.log(contador);
+    //contador++;
+    //console.log(contador);
   }
 
   const showQuestion = async () => {
@@ -154,6 +154,8 @@ export const GameProvider = ({ children }) => {
         ...prevQuestionData,
         visible: true
       }));
+
+      
     }
     else if (option == 1) {
       setQuestionData(prevQuestionData => ({
